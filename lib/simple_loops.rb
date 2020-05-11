@@ -14,8 +14,18 @@ end
 
 def output_array(array)
   counter = 0
-  while array[counter] do 
-    puts array[counter] 
+  while array[counter] do
+    puts array[counter]
     counter += 1
   end
+end
+
+def return_string_array(array)
+  new_array = []
+  counter = 0
+  while array[counter] do
+    puts new_array << array[counter]
+    counter += 1
+  end
+  return new_array.join(" ")
 end
