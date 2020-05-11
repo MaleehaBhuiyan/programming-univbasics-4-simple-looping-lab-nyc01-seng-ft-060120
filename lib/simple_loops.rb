@@ -27,5 +27,5 @@ def return_string_array(array)
     puts new_array << array[counter]
     counter += 1
   end
-  return new_array.join(" ")
+  return new_array
 end
