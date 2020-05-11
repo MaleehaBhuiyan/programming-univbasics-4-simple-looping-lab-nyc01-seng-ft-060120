@@ -24,8 +24,8 @@ def return_string_array(array)
   new_array = []
   counter = 0
   while array[counter] do
-    puts new_array << array[counter]
+    puts new_array << array[counter.to_s]
     counter += 1
   end
-  return new_array.join(" ")
+  return new_array
 end
